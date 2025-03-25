@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <canvas id="weatherChart" width="400" height="200"></canvas>
+
+  <script>
+    function drawChart(labels, temperatures) {
+      const ctx = document.getElementById('weatherChart').getContext('2d');
+      
+      new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: 'Temperature (°C)',
+            data: temperatures,
+            fill: false,
+            borderColor: 'rgba(75, 192, 192, 1)',
+            tension: 0.1
+          }]
+        },
+        options: {
+          responsive: true,
+          scales: {
+            x: {
+              title: {
+                display: true,
+                text: 'Time'
+              }
+            },
+            y: {
+              title: {
+                display: true,
+                text: 'Temperature (°C)'
+              },
+              min: -10,  // Min temperature
+              max: 40    // Max temperature
+            }
+          }
+        }
+      });
+    }
+
+    const apiKey = 'a3340d2f22ccc9fdc399b44e9eb65c5a';  // Replace with your OpenWeatherMap API key
+    const city = 'London';  // Replace with your city of choice
+    const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&cnt=10&appid=${apiKey}`;
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const labels = [];
+        const temperatures = [];
+
+        // Process the data to get the time and temperature
+        data.list.forEach(item => {
+          const time = new Date(item.dt * 1000).toLocaleTimeString();  // Convert Unix timestamp to time
+          const temp = item.main.temp;  // Get temperature
+          labels.push(time);
+          temperatures.push(temp);
+        });
+
+        // Call the function to draw the chart
+        drawChart(labels, temperatures);
+      })
+      .catch(error => console.log('Error fetching weather data:', error));
+  </script>
+</body>
+</html>

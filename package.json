@@ -1,0 +1,11 @@
+{
+  "name": "abhir7",
+  "version": "1.0.0",
+  "description": "FsdLab ",
+  "main": "index.js",
+  "scripts": {
+    "test": "5+7"
+  },
+  "author": "Abhi",
+  "license": "ISC"
+}

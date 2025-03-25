@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Ravi",
+    "age": 21,
+    "branch": "IT",
+    "email": "ravi@gmail.com",
+    "phone": 9876543210,
+    "address": { 
+      "street": "Siri Nagar", 
+      "city": "Bangalore", 
+      "state": "Karnataka", 
+      "zip": 560001 
+    },
+    "courses": ["Data Structures", "Algorithms", "Networking"],
+    "grades": { 
+      "computerscience": "A", 
+      "Mathematics": "B+", 
+      "physics": "A-" 
+    },
+    "attendance": { 
+      "totalclasses": 40, 
+      "attended": 38 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Sneha",
+    "age": 22,
+    "branch": "ECE",
+    "email": "sneha@gmail.com",
+    "phone": 9912345678,
+    "address": { 
+      "street": "Gandhi Road", 
+      "city": "Chennai", 
+      "state": "Tamil Nadu", 
+      "zip": 600100 
+    },
+    "courses": ["Analog Circuits", "Digital Electronics", "Signals & Systems"],
+    "grades": { 
+      "computerscience": "B", 
+      "Mathematics": "A-", 
+      "physics": "A+" 
+    },
+    "attendance": { 
+      "totalclasses": 45, 
+      "attended": 44 
+    },
+    "scholarship": false
+  },
+  {
+    "name": "Kiran",
+    "age": 23,
+    "branch": "Mechanical",
+    "email": "kiran@gmail.com",
+    "phone": 8765432109,
+    "address": { 
+      "street": "Brahmapuri", 
+      "city": "Pune", 
+      "state": "Maharashtra", 
+      "zip": 411001 
+    },
+    "courses": ["Thermodynamics", "Fluid Mechanics", "Heat Transfer"],
+    "grades": { 
+      "computerscience": "C+", 
+      "Mathematics": "B", 
+      "physics": "A" 
+    },
+    "attendance": { 
+      "totalclasses": 50, 
+      "attended": 46 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Ayesha",
+    "age": 21,
+    "branch": "Civil",
+    "email": "ayesha@gmail.com",
+    "phone": 8213456789,
+    "address": { 
+      "street": "Vasant Vihar", 
+      "city": "Delhi", 
+      "state": "Delhi", 
+      "zip": 110052 
+    },
+    "courses": ["Structural Engineering", "Surveying", "Construction Management"],
+    "grades": { 
+      "computerscience": "B", 
+      "Mathematics": "A", 
+      "physics": "B+" 
+    },
+    "attendance": { 
+      "totalclasses": 55, 
+      "attended": 52 
+    },
+    "scholarship": false
+  },
+  {
+    "name": "Vikram",
+    "age": 22,
+    "branch": "CSE",
+    "email": "vikram@gmail.com",
+    "phone": 7701234567,
+    "address": { 
+      "street": "Shivaji Nagar", 
+      "city": "Mumbai", 
+      "state": "Maharashtra", 
+      "zip": 400016 
+    },
+    "courses": ["Machine Learning", "DBMS", "Python"],
+    "grades": { 
+      "computerscience": "A-", 
+      "Mathematics": "B", 
+      "physics": "A+" 
+    },
+    "attendance": { 
+      "totalclasses": 48, 
+      "attended": 47 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Priya",
+    "age": 21,
+    "branch": "CSE",
+    "email": "priya@gmail.com",
+    "phone": 9998765432,
+    "address": { 
+      "street": "Navjeevan Colony", 
+      "city": "Kolkata", 
+      "state": "West Bengal", 
+      "zip": 700027 
+    },
+    "courses": ["Blockchain", "JavaScript", "Web Development"],
+    "grades": { 
+      "computerscience": "S", 
+      "Mathematics": "A", 
+      "physics": "B+" 
+    },
+    "attendance": { 
+      "totalclasses": 50, 
+      "attended": 48 
+    },
+    "scholarship": false
+  },
+  {
+    "name": "Nikhil",
+    "age": 23,
+    "branch": "Electrical",
+    "email": "nikhil@gmail.com",
+    "phone": 8123456789,
+    "address": { 
+      "street": "Karkhana", 
+      "city": "Hyderabad", 
+      "state": "Telangana", 
+      "zip": 500062 
+    },
+    "courses": ["Power Systems", "Circuit Analysis", "Electromagnetic Fields"],
+    "grades": { 
+      "computerscience": "A", 
+      "Mathematics": "B-", 
+      "physics": "A" 
+    },
+    "attendance": { 
+      "totalclasses": 45, 
+      "attended": 43 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Sanya",
+    "age": 21,
+    "branch": "IT",
+    "email": "sanya@gmail.com",
+    "phone": 7896541230,
+    "address": { 
+      "street": "Sector 45", 
+      "city": "Gurgaon", 
+      "state": "Haryana", 
+      "zip": 122001 
+    },
+    "courses": ["Operating Systems", "AI", "Computer Networks"],
+    "grades": { 
+      "computerscience": "B+", 
+      "Mathematics": "A-", 
+      "physics": "B" 
+    },
+    "attendance": { 
+      "totalclasses": 50, 
+      "attended": 46 
+    },
+    "scholarship": false
+  },
+  {
+    "name": "Deepak",
+    "age": 24,
+    "branch": "Mechanical",
+    "email": "deepak@gmail.com",
+    "phone": 9012345678,
+    "address": { 
+      "street": "Model Town", 
+      "city": "Chandigarh", 
+      "state": "Punjab", 
+      "zip": 160017 
+    },
+    "courses": ["Strength of Materials", "Mechanical Vibrations", "Production Technology"],
+    "grades": { 
+      "computerscience": "A", 
+      "Mathematics": "B", 
+      "physics": "B+" 
+    },
+    "attendance": { 
+      "totalclasses": 55, 
+      "attended": 53 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Harshita",
+    "age": 22,
+    "branch": "Civil",
+    "email": "harshita@gmail.com",
+    "phone": 9876123456,
+    "address": { 
+      "street": "Suraj Nagar", 
+      "city": "Lucknow", 
+      "state": "Uttar Pradesh", 
+      "zip": 226010 
+    },
+    "courses": ["Construction Materials", "Surveying", "Environmental Engineering"],
+    "grades": { 
+      "computerscience": "C", 
+      "Mathematics": "A+", 
+      "physics": "A" 
+    },
+    "attendance": { 
+      "totalclasses": 45, 
+      "attended": 44 
+    },
+    "scholarship": false
+  },
+  {
+    "name": "Arjun",
+    "age": 23,
+    "branch": "Electronics",
+    "email": "arjun@gmail.com",
+    "phone": 7564789345,
+    "address": { 
+      "street": "Bengaluru East", 
+      "city": "Bengaluru", 
+      "state": "Karnataka", 
+      "zip": 560024 
+    },
+    "courses": ["VLSI", "Signals Processing", "Microelectronics"],
+    "grades": { 
+      "computerscience": "A-", 
+      "Mathematics": "A", 
+      "physics": "B+" 
+    },
+    "attendance": { 
+      "totalclasses": 50, 
+      "attended": 48 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Nidhi",
+    "age": 22,
+    "branch": "IT",
+    "email": "nidhi@gmail.com",
+    "phone": 9809876543,
+    "address": { 
+      "street": "Azad Nagar", 
+      "city": "Noida", 
+      "state": "Uttar Pradesh", 
+      "zip": 201301 
+    },
+    "courses": ["Cyber Security", "Cloud Computing", "JavaScript"],
+    "grades": { 
+      "computerscience": "B+", 
+      "Mathematics": "A", 
+      "physics": "A-" 
+    },
+    "attendance": { 
+      "totalclasses": 48, 
+      "attended": 45 
+    },
+    "scholarship": false
+  },
+  {
+    "name": "Manoj",
+    "age": 23,
+    "branch": "CSE",
+    "email": "manoj@gmail.com",
+    "phone": 8222333444,
+    "address": { 
+      "street": "Maruthi Nagar", 
+      "city": "Visakhapatnam", 
+      "state": "Andhra Pradesh", 
+      "zip": 530040 
+    },
+    "courses": ["Algorithms", "FSD", "Python Programming"],
+    "grades": { 
+      "computerscience": "A", 
+      "Mathematics": "B", 
+      "physics": "B+" 
+    },
+    "attendance": { 
+      "totalclasses": 50, 
+      "attended": 50 
+    },
+    "scholarship": true
+  },
+  {
+    "name": "Madhavi",
+    "age": 24,
+    "branch": "Mechanical",
+    "email": "madhavi@gmail.com",
+    "phone": 8321234567,
+    "address": { 
+      "street": "Rambagh", 
+      "city": "Jaipur", 
+      "state": "Rajasthan", 
+      "zip": 302001 
+    },
+    "courses": ["Fluid Mechanics", "Thermodynamics", "Strength of Materials"],
+    "grades": { 
+      "computerscience": "B", 
+      "Mathematics": "B+", 
+      "physics": "A" 
+    },
+    "attendance": { 
+      "totalclasses": 55, 
+      "attended": 52 
+    },
+    "scholarship": false
+  }
+]
